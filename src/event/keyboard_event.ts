@@ -1,7 +1,5 @@
 /**
- * This interface represents a keyboard event.
- * 
- * [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/KeyboardEvent)
+ * This interface represents a keyboard event inside of the terminal.
  */
 export interface KeyboardEvent {
   /**
