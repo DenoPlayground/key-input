@@ -14,10 +14,10 @@ export interface KeyboardEvent {
   key : string | undefined,
   /** [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) */
   code : string | undefined,
+  /** [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/shiftKey) */
+  shiftKey : boolean,
   /** [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/ctrlKey) */
   ctrlKey : boolean,
   /** [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/altKey) */
   altKey : boolean
-  /** [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/shiftKey) */
-  shiftKey : boolean
 }
