@@ -1,7 +1,7 @@
 /**
  * This interface represents a keyboard event inside of the terminal.
  */
-export interface KeyboardEvent {
+export interface KeyboardTerminalEvent {
   /**
    * The code sequence that was send to the terminal.
    * 
