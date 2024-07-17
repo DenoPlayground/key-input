@@ -18,6 +18,7 @@ keyMap.set([27, 91, 50, 51, 126], {code: 'F11', key: 'F11'})
 keyMap.set([27, 91, 50, 52, 126], {code: 'F12', key: 'F12'})
 
 keyMap.set([27, 91, 50, 126], {code: 'Paste', key: 'Paste'})
+keyMap.set([27, 91, 51, 126], {code: 'Delete', key: 'Delete'})
 keyMap.set([27, 91, 53, 126], {code: 'PageUp', key: 'PageUp'})
 keyMap.set([27, 91, 54, 126], {code: 'PageDown', key: 'PageDown'})
 keyMap.set([27, 91, 70], {code: 'End', key: 'End'})
