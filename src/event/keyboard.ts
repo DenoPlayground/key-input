@@ -19,7 +19,5 @@ export interface KeyboardEvent {
   /** [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/altKey) */
   altKey : boolean
   /** [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/shiftKey) */
-  shiftKey : boolean,
-  /** [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/repeat) */
-  repeat : boolean
+  shiftKey : boolean
 }
