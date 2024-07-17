@@ -25,7 +25,6 @@ keyMap.set([27, 91, 70], {code: 'End', key: 'End'})
 keyMap.set([27, 91, 72], {code: 'Home', key: 'Home'})
 
 keyMap.set([32], {code: 'Space', key: ' '})
-keyMap.set([32], {code: 'Semicolon', key: '"'})
 keyMap.set([45], {code: 'Minus', key: 'Minus'})
 
 keyMap.set([48], {code: 'Digit0', key: '0'})
