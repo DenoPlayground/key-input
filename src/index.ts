@@ -3,5 +3,6 @@ Deno.stdin.setRaw(true)
 
 for await (const keys of Deno.stdin.readable) {
   
-  console.log(keys)
+  console.log(`keyMap.set([${keys.join(', ')}], {code: '', key: '${String.fromCharCode(...Array.from(keys))}'})`);
+  
 }
