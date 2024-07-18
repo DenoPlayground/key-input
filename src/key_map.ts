@@ -1,6 +1,6 @@
 const keyMap = new Map<(number | null)[], {}>()
 
-keyMap.set([13], {code: 'Tab', key: '\t'})
+keyMap.set([9], {code: 'Tab', key: '\t'})
 keyMap.set([13], {code: 'Enter', key: '\n'})
 keyMap.set([27], {code: 'Escape', key: 'Escape'})
 
@@ -21,11 +21,30 @@ keyMap.set([27, 91, 50, 126], {code: 'Paste', key: 'Paste'})
 keyMap.set([27, 91, 51, 126], {code: 'Delete', key: 'Delete'})
 keyMap.set([27, 91, 53, 126], {code: 'PageUp', key: 'PageUp'})
 keyMap.set([27, 91, 54, 126], {code: 'PageDown', key: 'PageDown'})
+
+keyMap.set([27, 91, 65], {code: 'ArrowUp', key: 'ArrowUp'})
+keyMap.set([27, 91, 66], {code: 'ArrowDown', key: 'ArrowDown'})
+keyMap.set([27, 91, 67], {code: 'ArrowRight', key: 'ArrowRight'})
+keyMap.set([27, 91, 68], {code: 'ArrowLeft', key: 'ArrowLeft'})
+
 keyMap.set([27, 91, 70], {code: 'End', key: 'End'})
 keyMap.set([27, 91, 72], {code: 'Home', key: 'Home'})
 
 keyMap.set([32], {code: 'Space', key: ' '})
-keyMap.set([45], {code: 'Minus', key: 'Minus'})
+keyMap.set([33], {code: 'ExclamationMark', key: '!'})
+keyMap.set([34], {code: 'DoubleQuotation', key: '"'})
+keyMap.set([35], {code: 'Hash', key: '#'})
+keyMap.set([36], {code: 'Dollar', key: '$'})
+keyMap.set([37], {code: 'Percent', key: '%'})
+keyMap.set([38], {code: 'And', key: '&'})
+keyMap.set([39], {code: 'SingleQuotation', key: '\''})
+keyMap.set([40], {code: 'ParenthesesLeft', key: '('})
+keyMap.set([41], {code: 'ParenthesesRight', key: ')'})
+keyMap.set([42], {code: 'Multiply', key: '*'})
+keyMap.set([43], {code: 'Add', key: '+'})
+keyMap.set([45], {code: 'Minus', key: '-'})
+keyMap.set([46], {code: 'Period', key: '.'})
+keyMap.set([47], {code: 'Slash', key: '/'})
 
 keyMap.set([48], {code: 'Digit0', key: '0'})
 keyMap.set([49], {code: 'Digit1', key: '1'})
@@ -38,7 +57,13 @@ keyMap.set([55], {code: 'Digit7', key: '7'})
 keyMap.set([56], {code: 'Digit8', key: '8'})
 keyMap.set([57], {code: 'Digit9', key: '9'})
 
-keyMap.set([61], {code: 'Equal', key: 'Equal'})
+keyMap.set([58], {code: 'Colon', key: ':'})
+keyMap.set([59], {code: 'Semicolon', key: ';'})
+keyMap.set([60], {code: 'Backquote', key: '<'})
+keyMap.set([61], {code: 'Equal', key: '='})
+keyMap.set([62], {code: 'Backquote', key: '>'})
+keyMap.set([63], {code: 'QuestionMark', key: '?'})
+keyMap.set([64], {code: 'AtSign', key: '@'})
 
 keyMap.set([65], {code: 'KeyA', key: 'A'})
 keyMap.set([66], {code: 'KeyB', key: 'B'})
@@ -68,7 +93,11 @@ keyMap.set([89], {code: 'KeyY', key: 'Y'})
 keyMap.set([90], {code: 'KeyZ', key: 'Z'})
 
 keyMap.set([91], {code: 'BracketLeft', key: '['})
+keyMap.set([92], {code: 'Backslash', key: '\\'})
 keyMap.set([93], {code: 'BracketRight', key: ']'})
+keyMap.set([94], {code: 'Caret', key: '^'})
+keyMap.set([95], {code: 'Underscore', key: '_'})
+keyMap.set([96], {code: 'Backquote', key: '`'})
 
 keyMap.set([97], {code: 'KeyA', key: 'a'})
 keyMap.set([98], {code: 'KeyB', key: 'b'})
@@ -97,6 +126,11 @@ keyMap.set([120], {code: 'KeyX', key: 'x'})
 keyMap.set([121], {code: 'KeyY', key: 'y'})
 keyMap.set([122], {code: 'KeyZ', key: 'z'})
 
+keyMap.set([123], {code: 'BracesLeft', key: '{'})
+keyMap.set([124], {code: 'Pipe', key: '|'})
+keyMap.set([125], {code: 'BracesRight', key: '}'})
+
+keyMap.set([126], {code: 'Tilde', key: '~'})
 keyMap.set([127], {code: 'Backspace', key: 'Backspace'})
 
 export default keyMap;
