@@ -1,3 +1,4 @@
+// deno-lint-ignore-file prefer-ascii
 const keyMap = new Map<(number | null)[], {}>()
 
 keyMap.set([0], {code: 'Null', key: '\x00'})
